@@ -8,6 +8,7 @@
 
     <script src="scripts/angular.js"></script>
     <script src="scripts/angular-ui-router.js"></script>
+    <script src="app/app.js"></script>
     <script src="app/app-state-manager.js"></script>
 
     <script src="app/feature/home/home-controller.js"></script>
@@ -15,17 +16,19 @@
     <script src="app/feature/js-exercises/js-exercises-controller.js"></script>
 </head>
 <body data-ng-app="webApp">
-<nav class="navbar navbar-default">
     <div class="container-fluid">
         <ul class="nav navbar-nav">
-            <li><a ui-sref-active="home">Home</a></li>
-            <li><a ui-sref-active="about-me">About Me</a></li>
-            <li><a ui-sref-active="project-list">Project List</a></li>
-            <li><a ui-sref-active="js exercises">JS exercises</a></li>
+            <li><a ui-sref="home" ui-sref-active="active">Home</a></li>
+            <li><a ui-sref="aboutme" ui-sref-active="active">About Me</a></li>
+            <li><a ui-sref="projectlist" ui-sref-active="active">Project List</a></li>
+            <li><a ui-sref="jsexercise" ui-sref-active="active">JS Exercises</a></li>
+
         </ul>
     </div>
-</nav>
-<h2 align="center">Daniel's Website</h2>
-<ui-view></ui-view>
+<ui-view>
+    <h2 align="center">Daniel's Website</h2>
+    <h1 align="center">Daniel's Website</h1>
+
+</ui-view>
 </body>
 </html>

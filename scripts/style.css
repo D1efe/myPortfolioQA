@@ -22,7 +22,26 @@ li a:hover {
     background-color: #111;
 }
 
-.active{
+active{
     color: red;
     font-weight: bolder;
+}
+
+h2 {
+    color: aqua;
+}
+ui-view {
+    background: url("../images/blue_wallpaper_original_1600x1200.png") no-repeat fixed center;
+    background-size: cover;
+
+
+}
+
+body {
+    background: url("../images/blue_wallpaper_original_1600x1200.png") no-repeat fixed center;
+    margin: 0px;
+
+}
+nav {
+    width: 100%;
 }
