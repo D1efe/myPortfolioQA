@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Functions 3 / Events 2</title>
+</head>
+<body>
+	<ul>
+		<li>Name: <input type="text" id="name1"></li>
+		<li>Age: <input type="text" id="age1"></li>
+		<li>Occupation: <input type="text" id="occupation1"></li>
+		<li><input type="button" value="show" onclick="displayPerson()"></li>
+	</ul>
+	<div id="hideDiv">
+		person has been created:
+		<input type="text" name="">
+		<input type="button" value="hide" onclick="hide()">
+	</div>
+
+	<script>
+		var person = {
+			name: document.getElementById("name1").value,
+			age: document.getElementById("age1").value,
+			occupation: document.getElementById("occupation1").value
+		};
+
+		function hide() {
+			var x = document.getElementById("hideDiv");
+			x.style.display = "none";
+		}
+		
+		function show() {
+			var x = document.getElementById("hideDiv");
+			if (x.style.display === "none") {
+				x.style.display = "block";    
+			}
+		}
+
+		function displayPerson() {
+			show();
+			result.value = JSON.stringify(person);
+
+		}
+
+	</script>
+</body>
+</html>

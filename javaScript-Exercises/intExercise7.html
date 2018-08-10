@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Garage</title>
+</head>
+<body>
+	<h1 id="myTitle"></h1>
+	<div id="checkin">
+		Check in: <input type="text" id="userInText">
+		<input type="button" name="userInButton" value="check in" onclick="checkIn()"><br>
+		<input type="checkbox" value="tires">Tire Damage
+		<input type="checkbox" value="window">Broken Window(s)
+		<input type="checkbox" value="scratch">Scratches
+		<input type="checkbox" value="suspension">Suspension
+		<input type="checkbox" value="lights">Front/Back Lights
+	</div><br>
+	<div id=checkout>
+		Check out: <input type="text" id="userOutText">
+		<input type="button" name="userOutButton" value="check out" onclick="checkOut()">
+	</div>
+	<hr>
+	<input type="button" value="show Garage" onclick="showGarage()">
+	<hr>
+
+	<table style="width:100%" id="garageTable"> 
+		<h1 align="center">Garage</h1>
+		<tr>
+			<th>Registration Number</th>
+			<th>Damages</th>
+			<th>Cost to Fix</th>
+
+		</tr>
+	</table>
+
+
+	<script>
+
+		var garage = [];
+		var damage = [];
+
+		function checkIn() {
+
+			let regiNo = document.getElementById("userInText").value;
+
+			garage.push({
+				car: regiNo,
+				damage: "damage",
+				fixCost: carBill()
+			});
+
+		}
+
+		function checkOut() {
+
+			let regNo = document.getElementById("userOutText").value;
+
+			let carIndex = garage.findIndex(x => x.car === regNo );
+			//delete garage[carIndex];
+			garage.splice(carIndex, 1);
+			console.log(garage.length);
+			console.log("Car has been checked out");
+			console.log(garage);
+
+
+		}
+
+		function showGarage() {
+
+			let garageList = document.getElementById("garageTable");
+			let count;
+
+			let rowCount = garageList.rows.length;
+			for (count = rowCount - 1; count > 0; count--) {
+				garageList.deleteRow(count);
+			}
+
+
+			for (count = 0; count < garage.length; count++) {
+				let row = document.createElement("TR");
+				let cell = document.createElement("TD");
+				let cell1 = document.createElement("TD");
+				let cell2 = document.createElement("TD");
+				cell.innerHTML = garage[count].car;
+				cell1.innerHTML = garage[count].damage;
+				cell2.innerHTML = carBill();
+				row.appendChild(cell);
+				row.appendChild(cell1);
+				row.appendChild(cell2);
+				garageList.appendChild(row);
+
+			}
+		}
+
+		function write1(p1) {
+
+			document.getElementById("numb").value += p1; 
+
+		}
+
+
+		function carBill() {
+
+			let garageList = document.getElementById("garageTable");
+			let bill = (20 * (garageList.length)) ;
+
+			return bill;
+
+
+
+		}
+
+	</script>
+</body>
+</html>

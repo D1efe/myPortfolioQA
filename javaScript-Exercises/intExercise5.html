@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON 1</title>
+</head>
+<body>
+	<script>
+
+		var globalData;
+
+		var requestURL = 'https://raw.githubusercontent.com/ewomackQA/JSONDataRepo/master/example.json';
+
+		var request = new XMLHttpRequest();
+		request.open('GET', requestURL);
+		request.responseType = 'json'
+		request.send();
+
+		request.onload = function() {
+			var globalData = request.response;
+
+			var	divHeader = document.getElementById('thisHeader');
+			var	divBody = document.getElementById('thisBody');
+
+			var header = document.createTextNode(globalData['squadName']);
+			divHeader.appendChild(header);
+
+
+
+			var Squad = {
+				HomeTown: globalData['homeTown'],
+				Formed: globalData['formed'],
+				SecretBase: globalData['secretBase'],
+				active: globalData['active']
+			};
+
+			divBody.innerHTML = (JSON.stringify(Squad));
+
+			var table = document.createElement("TABLE");
+			var header = document.createElement("TH");
+			var header1 = document.createElement("TH");
+			var header2 = document.createElement("TH");
+			var header3 = document.createElement("TH");
+
+			header.innerText = "Name";
+			header1.innerText = "Age";
+			header2.innerText = "Secret Identity";
+			header3.innerText = "Powers";
+			table.appendChild(header);
+			table.appendChild(header1);
+			table.appendChild(header2);
+			table.appendChild(header3);
+
+
+			for (count = 0; count < 3; count++) {
+				var row = document.createElement("TR");
+				var cell = document.createElement("TD");
+				var cell1 = document.createElement("TD");
+				var cell2 = document.createElement("TD");
+				var cell3 = document.createElement("TD");
+				cell.innerHTML = globalData["members"][count]["name"];
+				cell1.innerHTML = globalData["members"][count]["age"];
+				cell2.innerHTML = globalData["members"][count]["secretIdentity"];
+				cell3.innerHTML = globalData["members"][count]["powers"];
+				row.appendChild(cell);
+				row.appendChild(cell1);
+				row.appendChild(cell2);
+				row.appendChild(cell3);
+				table.appendChild(row);
+				memberList.appendChild(table);
+			}
+		}
+
+	</script>
+	<h1 id="thisHeader"></h1>
+	<div id="thisBody"></div>
+	<div id="memberList"><h3>The Squad: </h3></div>
+</body>
+</html>

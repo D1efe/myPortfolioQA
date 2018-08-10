@@ -1,0 +1,35 @@
+<html>
+
+<form name="f1">
+<input type="text" name ="test"> <br>
+<input type="button" value="click me" onclick="showthis()">
+</form>
+
+<form name="f2">
+<input type="text" name ="firstbox"> <br>
+<input type="text" name ="secondBox"> <br>
+<input type="button" value="click me" onclick="addition()"> <br>
+<input type="text" name ="thirdBox"> <br>
+</form>
+
+<script>
+function showthis() {
+	window.document.f1.test.value="yolo";
+}
+
+function addition() {
+	var first = window.document.f2.firstbox;
+	var second = window.document.f2.secondBox;
+
+	if (first.value =="") {
+		window.alert("Enter a value for first box");
+		first.focus();
+	} else if (second.value =="") {
+		window.alert("Enter a value for first box");
+		second.focus();
+	}
+	var third = parseInt(first.value)+parseInt(second.value);
+	window.document.f2.thirdBox.value = third;
+}
+</script>
+</html>

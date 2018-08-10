@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iteration 3 - Fizz Buzz</title>
+</head>
+<body>
+	<script>
+		function fizzBuzz(myNumb, firstVar, secondVar) {
+			for (numb = 0; numb <= myNumb; numb++){
+				if (numb % 3 == 0 && numb % 5 == 0) {
+					document.write(firstVar + " " +  secondVar + "<br>");
+				} else if (numb % 5 == 0) {
+					document.write(secondVar + "<br>");
+				} else if (numb % 3 == 0) {
+					document.write(firstVar + "<br>");
+				} else 
+				document.write(numb + "<br>");
+			}
+		}
+		fizzBuzz(20, "plus", "ultra");
+	</script>
+
+</body>
+</html>

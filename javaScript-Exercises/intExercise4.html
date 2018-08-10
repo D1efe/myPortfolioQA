@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dom 1</title>
+</head>
+<body>
+	<script>
+		var tags;
+		var nodes;
+		var elements;
+
+		function createParagraph() {
+			tags = document.createElement("p");
+			tags.setAttribute("id", "p");
+			elements = document.getElementById("paraOne");
+			elements.appendChild(tags);
+
+		}
+
+		function addTextToParagraph() {
+			nodes = document.createTextNode(boxInput.value);
+			tags.appendChild(nodes);
+		}
+
+		function deleteParagraph() {
+			elements = document.getElementById("paraOne");
+			delIt = document.getElementById("p");
+			elements.removeChild(delIt);
+		}
+
+
+	</script>
+	<div id="paraOne">
+		<input type="text" id="boxInput">
+	<input type="button" id="addPara" value="Add Para" onclick="createParagraph()"><br>
+	<input type="button" id="addText" value="Add Text" onclick="addTextToParagraph()"><br>
+	<input type="button" id="delPara" value="Delete paragraph" onclick="deleteParagraph()"><br>
+	</div>
+</body>
+</html>

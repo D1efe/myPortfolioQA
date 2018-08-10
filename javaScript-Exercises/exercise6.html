@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Events 1</title>
+</head>
+<body>
+
+	<form>
+		Your age is: <input type="text" id="firstBox">
+		<br>
+		<input type="button" name="button" value="increase age"	onclick="increment()"> <br>
+		<input type="text" id="secondBox"> <br>		
+	</form>
+
+	<script>
+		function increment() {
+			person.age ++
+			secondBox.value = person.age;
+		}
+
+		var person = {
+			name: "Daniel",
+			age: 23,
+			occupation: "Consultant"
+		};
+
+		firstBox.value = person.age;
+
+	</script>
+</body>
+</html>

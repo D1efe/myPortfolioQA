@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Strings 4</title>
+</head>
+<body>
+<script>
+	function recurring(sentence) {
+		var yolo = 0
+		for (counter = 0; counter <= sentence.length - 2; counter++) {
+			if (sentence.charAt(counter) === sentence.charAt(counter+1)) {
+				if (sentence.charAt(counter) === sentence.charAt(counter+2)) {
+					yolo++;
+				}
+			}
+		}
+		document.write(sentence + "<br>");
+		document.write("triple occurences: " + yolo + "<br>");
+	}
+	recurring("aabbcccdefffggg");
+</script>
+</body>
+</html>

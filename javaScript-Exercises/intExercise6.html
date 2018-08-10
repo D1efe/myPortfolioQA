@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON 2</title>
+</head>
+<body>
+
+	<script>
+
+		var globalData
+		var requestURL = 'https://raw.githubusercontent.com/ewomackQA/JSONDataRepo/master/kings.json';
+
+		var request = new XMLHttpRequest();
+		request.open('GET', requestURL);
+		request.responseType = 'json'
+		request.send();
+
+		request.onload = function() {
+			globalData = request.response;
+
+			let	divHeader = document.getElementById('thisHeader');
+			var	divBody = document.getElementById('thisBody');
+
+			let header = document.createTextNode("Houses of the Kings");
+			divHeader.appendChild(header);
+
+			var table = document.createElement("TABLE");
+			table.setAttribute('id', "tableK");
+			header = document.createElement("TH");
+			let header1 = document.createElement("TH");
+			let header2 = document.createElement("TH");
+			let header3 = document.createElement("TH");
+			header.innerText = "Name";
+			header1.innerText = "City";
+			header2.innerText = "House";
+			header3.innerText = "Years";
+			table.appendChild(header);
+			table.appendChild(header1);
+			table.appendChild(header2);
+			table.appendChild(header3);
+
+			for (count = 0; count < globalData.length; count++) {
+				var row = document.createElement("TR");
+				var cell = document.createElement("TD");
+				var cell1 = document.createElement("TD");
+				var cell2 = document.createElement("TD");
+				var cell3 = document.createElement("TD");
+				cell.innerHTML = globalData[count]["nm"];
+				cell1.innerHTML = globalData[count]["cty"];
+				cell2.innerHTML = globalData[count]["hse"];
+				cell3.innerHTML = globalData[count]["yrs"];
+				row.appendChild(cell);
+				row.appendChild(cell1);
+				row.appendChild(cell2);
+				row.appendChild(cell3);
+				table.appendChild(row);
+			}
+			divBody.appendChild(table);
+		}
+
+		function search() {
+			var myBar = document.getElementById("searchFilter").value;
+			console.log(myBar);
+			let filterTable = document.getElementById("tableK");
+			filterTable.innerHTML = "";
+
+			for (let count = 0; count < globalData.length; count++) {
+				if (globalData[count]["nm"] === myBar || globalData[count]["cty"] === myBar) {
+
+					let filterRow = document.createElement("TR");
+					var cell = document.createElement("TD");
+					var cell1 = document.createElement("TD");
+					var cell2 = document.createElement("TD");
+					var cell3 = document.createElement("TD");
+
+					cell.innerHTML = globalData[count]["nm"];
+					cell1.innerHTML = globalData[count]["cty"];
+					cell2.innerHTML = globalData[count]["hse"];
+					cell3.innerHTML = globalData[count]["yrs"];
+
+					filterRow.appendChild(cell);
+					filterRow.appendChild(cell1);
+					filterRow.appendChild(cell2);
+					filterRow.appendChild(cell3);
+					filterTable.appendChild(filterRow);
+
+					// var result = {
+					// 	Name: globalData[count]["nm"], 
+					// 	City: globalData[count]["cty"],
+					// 	House: globalData[count]["hse"],
+					// 	Years: globalData[count]["yrs"]
+					// };
+				}
+			}
+
+		}
+	</script>
+
+	<h1 id="thisHeader"></h1>
+	<div id="resultSearch">
+		filter table: <input type="text" id="searchFilter">
+		<input type="button" id="search" onclick="search()" value="filter">
+	</div>
+	<div id="thisBody"></div>
+
+</body>
+
+<style type="text/css">
+#table1 {
+	border-collapse: separate;
+	border-spacing: 15px;
+}
+</style>
+
+
+</html>
