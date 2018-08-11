@@ -1,5 +1,3 @@
-"use strict";
-
 (function () {
 
     angular.module('webApp').config(function ($stateProvider, $urlRouterProvider) {
