@@ -1,31 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="webApp">
 <head>
     <meta charset="UTF-8">
     <title>The portfolio of Daniel Osagie</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li><a class="navhead" ui-sref="home" ui-sref-active="active">Home</a></li>
+            <li><a class="navhead" ui-sref="aboutme" ui-sref-active="active">About Me</a></li>
+            <li><a class="navhead" ui-sref="projectlist">Project List</a></li>
+            <li><a class="navhead" ui-sref="jsexercise" ui-sref-active="active">JS Exercises</a></li>
+            <li><a class="navhead" ui-sref="gameapi" ui-sref-active="active">External API</a></li>
+        </ul>
+    </div>
+    <div ui-view></div>
 
     <link rel="stylesheet" href="scripts/style.css">
 
     <script src="scripts/angular.js"></script>
     <script src="scripts/angular-ui-router.js"></script>
+
     <script src="app/app.js"></script>
     <script src="app/app-state-manager.js"></script>
+    <script src="app/feature/about-me/about-me-controller.js"></script>
+    <script src="app/feature/gameapi/gameapi-controller.js"></script>
+    <script src="app/feature/home/home-controller.js"></script>
+    <script src="app/feature/js-exercises/js-exercises-controller.js"></script>
+    <script src="app/feature/project-list/project-list-controller.js"></script>
 
-    <!--<script src="app/feature/home/home-controller.js"></script>-->
-    <!--<script src="app/feature/about-me/about-me-controller.js"></script>-->
-    <!--<script src="app/feature/js-exercises/js-exercises-controller.js"></script>-->
-</head>
-<body data-ng-app="webApp">
-    <div class="container-fluid">
-        <ul class="nav navbar-nav">
-            <li><a ui-sref="home" ui-sref-active="active">Homecheck</a></li>
-            <li><a ui-sref="aboutme" ui-sref-active="active">About Me</a></li>
-            <li><a ui-sref="projectlist" ui-sref-active="active">Project List</a></li>
-            <li><a ui-sref="jsexercise" ui-sref-active="active">JS Exercises</a></li>
-
-        </ul>
-    </div>
-<ui-view>
-</ui-view>
 </body>
 </html>

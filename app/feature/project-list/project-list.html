@@ -1,7 +1,10 @@
-<html>
-<head>
-</head>
-<body>
-<h1>My Projects</h1>
-</body>
-</html>
+<div class="panel panel-default" ng-controller="projectlistController as plCtrl">
+<h1 class="title">Project List</h1><br/>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success">{{plCtrl.javaEE}}</li><br>
+            <li class="list-group-item list-group-item-info">{{plCtrl.angular}}</li><br>
+            <li class="list-group-item list-group-item-warning">{{plCtrl.html}}</li><br>
+            <li class="list-group-item list-group-item-danger">{{plCtrl.bootstrap}}</li><br>
+            <li class="list-group-item list-group-item-danger">{{plCtrl.bootstrap}}</li><br>
+        </ul>
+</div>

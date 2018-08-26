@@ -1,0 +1,16 @@
+<div class="panel panel-default" ng-controller="gameController as gCon">
+<h1 class="title">Battle Field API</h1>
+    <h2 class="title2">{{gCon.description}}</h2>
+    <table class="gameTable">
+        <tr>
+            <th>{{gCon.titleOne | uppercase}}</th>
+            <th>{{gCon.titleTwo | uppercase}}</th>
+            <th>{{gCon.titleThree | uppercase}}</th>
+        </tr>
+        <tr ng-repeat="person in gCon.people">
+            <td>{{person.firstName}}</td>
+            <td>{{person.secondName}}</td>
+            <td>{{person.accountNumber}}</td>
+        </tr>
+    </table>
+</div>

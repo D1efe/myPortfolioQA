@@ -1,4 +1,4 @@
-ul {
+ul.navbar-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ li {
     float: left;
 }
 
-li a {
+li a.navhead {
     display: block;
     color: white;
     text-align: center;
@@ -18,30 +18,28 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a.navhead:hover {
     background-color: #111;
 }
 
-active{
-    color: red;
-    font-weight: bolder;
-}
-
-h2 {
-    color: aqua;
-}
 ui-view {
     background: url("../images/blue_wallpaper_original_1600x1200.png") no-repeat fixed center;
     background-size: cover;
-
-
 }
 
 body {
     background: url("../images/blue_wallpaper_original_1600x1200.png") no-repeat fixed center;
     margin: 0px;
+}
 
+.title {
+    text-align: center;
+    /*border: 3px solid green;*/
 }
-nav {
-    width: 100%;
+
+.jsbuttons {
+    background: linear-gradient(#1a55cc, #010101);
+    border-radius: 5px;
+    color: #ffffff;
 }
+

@@ -1,3 +1,5 @@
+"use strict";
+
 (function () {
 
     angular.module('webApp').config(function ($stateProvider, $urlRouterProvider) {
@@ -15,6 +17,9 @@
         }).state("projectlist", {
             url: "/project-list",
             templateUrl: "app/feature/project-list/project-list.html"
+        }).state("gameapi", {
+            url: "/gameapi",
+            templateUrl: "app/feature/gameapi/gameapi.html"
         })
     });
 }());

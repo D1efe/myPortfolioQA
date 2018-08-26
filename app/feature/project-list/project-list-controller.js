@@ -1,30 +1,19 @@
 (function() {
 
-    var projectListController =  function(accountService, $log) {
+    var ProjectlistController =  function() {
 
         var vm = this;
 
-        vm.isHidden = false;
+        vm.angular = "AngularJS";
 
-        vm.hideTable = function()
-        {
-            vm.isHidden = !vm.isHidden
-        };
+        vm.bootstrap = "Twitter Bootstrap";
 
-        function init() {
-            accountService.getAccounts().then(function (results) {
-                vm.accounts = results;
-                $log.log("In the account controller the value of the result promise is ");
-                $log.log(JSON.stringify(vm.accounts));
-            }, function (error) {
-                vm.error = true;
-                vm.errorMessage = error;
-            });
-        }
+        vm.html = "HTML5";
 
-        init();
+        vm.javaEE = "JavaEE";
+
 
     };
 
-    angular.module('WebApp').controller('project-listController', ['accountService','$log', projectListController]);
+    angular.module('webApp').controller('projectlistController', [ProjectlistController]);
 }());

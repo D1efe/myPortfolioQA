@@ -4,32 +4,14 @@
     <list default="true" id="4ec0d68a-0cd7-4681-a94e-014c77f81714" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app-state-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app-state-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/feature/about-me/about-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/about-me/about-me.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/feature/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/home/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/feature/js-exercises/js-exercises.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/js-exercises.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/feature/project-list/project-list-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/project-list/project-list-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/feature/project-list/project-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/project-list/project-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise1.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise10.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise11.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise12.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise13.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise2.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise3.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise4.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise5.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise6.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise7.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise8.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/exercise9.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/intExercise1.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/intExercise1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/intExercise2.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/intExercise2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/intExercise3.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/intExercise3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/intExercise4.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/intExercise4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/intExercise5.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/intExercise5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/intExercise6.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/intExercise6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaScript-Exercises/intExercise7.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/intExercise7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,40 +23,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="myPortfolio" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+            <state relative-caret-position="435">
+              <caret line="29" column="79" selection-start-line="29" selection-start-column="79" selection-end-line="29" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js-exercises.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/feature/js-exercises/js-exercises.html">
+      <file leaf-file-name="gameapi.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/feature/gameapi/gameapi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="45">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app-state-manager.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app-state-manager.js">
+      <file leaf-file-name="gameapi-controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/feature/gameapi/gameapi-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exercise3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -82,17 +58,17 @@
       <file leaf-file-name="project-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/feature/project-list/project-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/feature/home/home.html">
+      <file leaf-file-name="project-list-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/feature/project-list/project-list-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="255">
+              <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -122,23 +98,25 @@
         <option value="$PROJECT_DIR$/app/feature/about-me/about-me-controller.js" />
         <option value="$PROJECT_DIR$/app/feature/js-exercises/js-exercises-controller.js" />
         <option value="$PROJECT_DIR$/app/feature/project-list/project-list-controll.js" />
-        <option value="$PROJECT_DIR$/app/feature/project-list/project-list-controller.js" />
         <option value="$PROJECT_DIR$/temp" />
         <option value="$PROJECT_DIR$/scripts/angular.min.js" />
         <option value="$PROJECT_DIR$/scripts/ui-router.min.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
-        <option value="$PROJECT_DIR$/scripts/style.css" />
         <option value="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise1.html" />
-        <option value="$PROJECT_DIR$/app/feature/about-me/about-me.html" />
-        <option value="$PROJECT_DIR$/app/feature/home/home.html" />
-        <option value="$PROJECT_DIR$/app/feature/project-list/project-list.html" />
-        <option value="$PROJECT_DIR$/app/app-state-manager.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise1.js" />
         <option value="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise2.js" />
         <option value="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise3.js" />
         <option value="$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise3.html" />
+        <option value="$PROJECT_DIR$/app/feature/home/home.html" />
+        <option value="$PROJECT_DIR$/app/feature/about-me/about-me.html" />
+        <option value="$PROJECT_DIR$/app/app-state-manager.js" />
         <option value="$PROJECT_DIR$/app/feature/js-exercises/js-exercises.html" />
+        <option value="$PROJECT_DIR$/scripts/style.css" />
+        <option value="$PROJECT_DIR$/app/feature/project-list/project-list-controller.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/feature/project-list/project-list.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/feature/gameapi/gameapi.html" />
+        <option value="$PROJECT_DIR$/app/feature/gameapi/gameapi-controller.js" />
       </list>
     </option>
   </component>
@@ -151,10 +129,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="45" />
-    <option name="width" value="1346" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="54" />
+    <option name="width" value="1340" />
     <option name="height" value="678" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -163,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,29 +162,18 @@
             <path>
               <item name="myPortfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="myPortfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
-              <item name="js-exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myPortfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myPortfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
-              <item name="js-exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="javaScript-Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fullstackProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -247,27 +214,30 @@
       <workItem from="1533890724153" duration="8000" />
       <workItem from="1533890754137" duration="617000" />
       <workItem from="1533892353954" duration="20872000" />
-      <workItem from="1534009058759" duration="891000" />
+      <workItem from="1534009058759" duration="10902000" />
+      <workItem from="1534186718988" duration="10926000" />
+      <workItem from="1534410866725" duration="1219000" />
+      <workItem from="1535053206717" duration="7975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25450000" />
+    <option name="totallyTimeSpent" value="55581000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="45" width="1346" height="678" extended-state="0" />
+    <frame x="-2" y="25" width="1370" height="722" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72032523" visible="true" weight="0.24524158" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.2796748" side_tool="true" visible="true" weight="0.24524158" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -284,6 +254,55 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/feature/project-list/project-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/project-list/project-list-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/gameapi/gameapi-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/project-list/project-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/project-list/project-list-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/gameapi/gameapi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -428,13 +447,6 @@
     <entry file="file://$PROJECT_DIR$/app/feature/about-me/about-me-controller.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/feature/project-list/project-list-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/temp" />
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -448,68 +460,17 @@
     <entry file="file://$PROJECT_DIR$/scripts/angular-ui-router.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/angular.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/style.css">
+    <entry file="file://$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/feature/home/home-controller.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/feature/js-exercises/js-exercises-controller.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/feature/project-list/project-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+        <state relative-caret-position="345">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/feature/about-me/about-me.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/feature/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app-state-manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -520,17 +481,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise3.html">
+    <entry file="file://$PROJECT_DIR$/app/feature/js-exercises/javaScript-Exercises/exercise1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/feature/js-exercises/js-exercises.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1710" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/home/home-controller.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/js-exercises/js-exercises-controller.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/project-list/project-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app-state-manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="79" selection-start-line="29" selection-start-column="79" selection-end-line="29" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/gameapi/gameapi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/project-list/project-list-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/gameapi/gameapi-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
